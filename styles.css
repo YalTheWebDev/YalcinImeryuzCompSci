@@ -23,6 +23,7 @@
 }
 
 .down {
+    margin-top: 100%;
     display: inline-block;
     opacity: 0;
 }

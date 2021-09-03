@@ -2,8 +2,8 @@ const checkpoint = 100;
 const subtitle_checkpoint = 175;
 
 function pageScroll() {
-  window.scrollBy(0, 0.1);
-  scrolldelay = setTimeout(pageScroll, 5);
+  window.scrollBy(0, 5);
+  scrolldelay = setTimeout(pageScroll, 0.1);
 }
 
 pageScroll();
@@ -13,7 +13,6 @@ window.addEventListener("scroll", () => {
   if (currentScroll <= checkpoint) {
     opacity = 1 - currentScroll / checkpoint;
     subtitle_opacity = 0 + currentScroll / checkpoint;
-    text_opacity = 0;
   } else if (subtitle_opacity !== 0) {
     subtitle_opacity = 1 - currentScroll / subtitle_checkpoint;
     text_opacity = 0 + currentScroll / subtitle_checkpoint;
