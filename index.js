@@ -18,7 +18,6 @@ window.addEventListener("scroll", () => {
     text_opacity = 0 + currentScroll / subtitle_checkpoint;
   } else {
     opacity = 0;
-    subtitle_opacity = 1;
   }
   document.querySelector(".fade").style.opacity = opacity;
   document.querySelector(".fade-sub-title").style.opacity = subtitle_opacity;
