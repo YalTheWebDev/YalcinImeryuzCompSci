@@ -1,5 +1,3 @@
-location.reload();
-
 const checkpoint = 100;
 const subtitle_checkpoint = 175;
 
