@@ -2,7 +2,7 @@ const checkpoint = 100;
 const subtitle_checkpoint = 175;
 
 function pageScroll() {
-  window.scrollBy(0, 2);
+  window.scrollBy(0, 1);
   scrolldelay = setTimeout(pageScroll, 0.1);
 }
 
