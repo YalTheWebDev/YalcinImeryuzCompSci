@@ -1,5 +1,5 @@
 const checkpoint = 100;
-const subtitle_checkpoint = 175;
+const subtitle_checkpoint = 180;
 
 function pageScroll() {
   window.scrollBy(0, 1);
